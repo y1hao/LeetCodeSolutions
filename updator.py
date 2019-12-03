@@ -46,7 +46,10 @@ for solution in solutions:
             if not time:
                 t = rtime.match(line)
                 if t: time = t.group(1)
-    content.append((number, title, difficulty, "/".join(language), time))
+    language = list(language)
+    language.sort()
+    language = "/".join(language)
+    content.append((number, title, difficulty, language, time))
 content.sort(key = lambda x:int(x[0]))
 with open("README.md", "w") as out:
     print(info, file = out)
