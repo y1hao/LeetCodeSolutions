@@ -66,3 +66,41 @@ int* twoSum(int* nums, int numsSize, int target, int *returnSize) {
 }
 ```
 Comments:
+
+### C, 4/12/2019
+```c
+int* twoSum(int* nums, int numsSize, int target, int *returnSize) {
+    *returnSize = 2;
+    int *res = malloc(*returnSize * sizeof(int));
+    struct hash_entry {
+        int key;
+        int value;
+        UT_hash_handle hh;
+    } *htab = NULL, *found = NULL;
+    for (int i = 0; i < numsSize; ++i)
+    {
+        int tmp = target - nums[i];
+        HASH_FIND_INT(htab, &tmp, found);
+        if (found != NULL)
+        {
+            res[0] = found->value;
+            res[1] = i;
+        }
+        else
+        {
+            struct hash_entry *entry = malloc(sizeof(struct hash_entry));
+            entry->key = nums[i];
+            entry->value = i;
+            HASH_ADD_INT(htab, key, entry);
+        }
+    }
+    struct hash_entry *current, *tmp;
+    HASH_ITER(hh, htab, current, tmp)
+    {
+        HASH_DEL(htab, current);
+        free(current);
+    }
+    return res;
+}
+```
+Comments:

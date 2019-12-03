@@ -34,23 +34,19 @@ for solution in solutions:
     number = words[0]
     title = "[" + " ".join(words[1:]) + "](" + base + solution + ")"
     difficulty = ""
-    language = ""
+    language = set()
     time = ""
     with open(solution, "r") as f:
         for line in f.readlines():
             l = rlang.match(line)
-            if l:
-                if not language:
-                    language = l.group(1)
-                else:
-                    language += "/" + l.group(1)
+            if l:language.add(l.group(1))
             if not difficulty:
                 d = rdifficulty.match(line)
                 if d: difficulty = d.group(1)
             if not time:
                 t = rtime.match(line)
                 if t: time = t.group(1)
-    content.append((number, title, difficulty, language, time))
+    content.append((number, title, difficulty, "/".join(language), time))
 content.sort(key = lambda x:int(x[0]))
 with open("README.md", "w") as out:
     print(info, file = out)
