@@ -4,8 +4,6 @@
 
 This repository contains my record of [Leetcode](https://leetcode.com/) training.
 
-The goal is to use C to solve all problems in the beginning 400 which do not require a subscription.
-
 I also take part in weekly contests occasionaly, the problems from contests are mainly implemented in JavaScript. These solutions, however, have not been included here, for I do not have enough time to document them and optimize the code.
 
 Here is a reference table for all the problems (except for those in contest) I have solved up to now. The plan is to include an analysis to each problem and some comments on the implementation in its markdown. However, these parts may be missing in some recently solved problems. They take time to complete.
