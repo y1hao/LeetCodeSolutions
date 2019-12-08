@@ -24,6 +24,11 @@ Here is a reference table for all the problems (except for those in contest) I h
 |12|[Integer to Roman](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/12_Integer_to_Roman.md)|medium|c|3/12/2019|
 |13|[Roman to Integer](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/13_Roman_to_Integer.md)|easy|c|17/11/2019|
 |14|[Longest Common Prefix](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/14_Longest_Common_Prefix.md)|easy|c|18/11/2019|
+|15|[3Sum](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/15_3Sum.md)|medium|JavaScript|6/12/2019|
+|16|[3Sum Closest](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/16_3Sum_Closest.md)|medium|c|8/12/2019|
+|17|[Letter Combinations of a Phone Number](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/17_Letter_Combinations_of_a_Phone_Number.md)|medium|c|7/12/2019|
+|18|[4Sum](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/18_4Sum.md)|medium|c|8/12/2019|
+|19|[Remove Nth Node From End of List](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/19_Remove_Nth_Node_From_End_of_List.md)|medium|c|7/12/2019|
 |20|[Valid Parentheses](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/20_Valid_Parentheses.md)|easy|c|18/11/2019|
 |21|[Merge Two Sorted Lists](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/21_Merge_Two_Sorted_Lists.md)|easy|c|18/11/2019|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/26_Remove_Duplicates_from_Sorted_Array.md)|easy|c|18/11/2019|
