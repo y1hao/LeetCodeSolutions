@@ -31,6 +31,10 @@ Here is a reference table for all the problems (except for those in contest) I h
 |19|[Remove Nth Node From End of List](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/19_Remove_Nth_Node_From_End_of_List.md)|medium|c|7/12/2019|
 |20|[Valid Parentheses](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/20_Valid_Parentheses.md)|easy|c|18/11/2019|
 |21|[Merge Two Sorted Lists](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/21_Merge_Two_Sorted_Lists.md)|easy|c|18/11/2019|
+|22|[Generate Parentheses](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/22_Generate_Parentheses.md)|medium|c|9/12/2019|
+|23|[Merge Two Sorted Lists](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/23_Merge_Two_Sorted_Lists.md)|hard|c|9/12/2019|
+|24|[Swap Nodes in Pairs](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/24_Swap_Nodes_in_Pairs.md)|medium|c|9/12/2019|
+|25|[Reverse Nodes in k Group](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/25_Reverse_Nodes_in_k_Group.md)|hard|c|9/12/2019|
 |26|[Remove Duplicates from Sorted Array](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/26_Remove_Duplicates_from_Sorted_Array.md)|easy|c|18/11/2019|
 |27|[Remove Element](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/27_Remove_Element.md)|easy|c|18/11/2019|
 |28|[Implement strStr()](https://github.com/CoderYihaoWang/LeetCodeSolutions/blob/master/28_Implement_strStr().md)|easy|c|18/11/2019|
